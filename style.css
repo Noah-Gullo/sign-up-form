@@ -1,0 +1,36 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(assets/Norse-Bold.otf);
+}
+
+img[src="assets/images/green-leaf-background.jpg"]{
+    margin: -10px;
+    display: flex;
+}
+
+img[src="assets/images/odin-icon.png"], img[src="assets/images/odin-icon.png"]+p{
+    position: absolute;
+    z-index: 2;
+}
+
+img[src="assets/images/odin-icon.png"]{
+    top: 140px;
+    left: 130px;
+}
+
+.odin-text{
+    top: 100px;
+    left: 200px;
+    color: white;
+    font-family: 'norse-bold', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.semi-transparent{
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    opacity: 1;
+
+    top: 150px;
+}
