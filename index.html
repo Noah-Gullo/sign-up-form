@@ -15,11 +15,32 @@
                 <p id="motivation">You <em>know</em> you want to</p>
             </div>
 
-            <!-- <div class="midright">
+            <div class="midright">
+                <p>Let's do this!</p>
                 <form>
-                    <input type"text">
+                    <fieldset>
+                        <label for="first-name">FIRST NAME</label>
+                        <input id="first-name" name="user_first_name" type="text">
+
+                        <label for="email">EMAIL</label>
+                        <input id="email" name="user_email" type="email">
+
+                        <label for="last-">PASSWORD</label>
+                        <input id="password" name="user_password" type="password" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="last-name">LAST NAME</label>
+                        <input id="last-name" name="user_last_name" type="text">
+
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input id="phone-number" name="user_phone_number" pattern="(\d{3}(\-)\d{3}(\-)\d{4})" type="number">
+
+                        <label for="last-">CONFIRM PASSWORD</label>
+                        <input id="confirm-password" name="user_password" required type="password">
+                    </fieldset>
                 </form>
-            </div> -->
+            </div>
 
             <div class="bottomright">
                 <button type="submit" id="submit-button">Create Account</button> 

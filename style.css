@@ -3,7 +3,11 @@
     src: url(assets/Norse-Bold.otf);
 }
 
-p {
+:root{
+    --bg-light-gray: #f6f6f6;
+}
+
+p, label{
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,6 +23,8 @@ img[src="assets/images/odin-icon.png"]+p,
 .right .topright,
 .right .topright p,
 .right .midright,
+.right .midright p,
+.right .midright form,
 .right .bottomright, 
 .right .bottomright p,
 .bottomright button{
@@ -41,7 +47,7 @@ img[src="assets/images/odin-icon.png"]{
 .odin-text{
     top: 100px;
     left: 200px;
-    color: white;
+    color: #ffffff;
     font-family: 'norse-bold', Arial, Helvetica, sans-serif;
     font-size: 60px;
 }
@@ -51,7 +57,7 @@ img[src="assets/images/odin-icon.png"]{
     height: 120px;
     top: 130px;
     left: -10px;
-    background-color: black;
+    background-color: #000000;
     opacity: 0.5;
 }
 
@@ -59,11 +65,12 @@ img[src="assets/images/odin-icon.png"]{
     font-size: 10px;
     top:615px;
     left: 115px;
-    color: white;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .credit-text>a{
-    color: white
+    color: #ffffff;
 }
 
 .right .topright {
@@ -71,6 +78,7 @@ img[src="assets/images/odin-icon.png"]{
     width: 975px;
     height: 200px;
     left: 421px;
+    background-color: var(--bg-light-gray);
 }
 
 .right .topright>p{
@@ -92,6 +100,50 @@ img[src="assets/images/odin-icon.png"]{
     left: 50px;
 }
 
+.midright p{
+    top: 200px;
+    left: 465px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.midright form{
+    top: 240px;
+    left: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    border: 0px;
+}
+
+.midright form fieldset{
+    border: 0px;
+}
+
+.midright form fieldset input{
+    width: 250px;
+    height: 25px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+
+.midright form fieldset input:focus{
+    outline: none;
+    width: 250px;
+    border: 1px solid #0055ff;
+    box-shadow: 1px 1px 2px 0px #000000;
+    border-radius: 4px;
+}
+
+.midright form fieldset input#password:invalid, .midright form fieldset input#confirm-password:invalid{
+    border-color: #f00;
+}
+
+.midright form label{
+    font-size: 11px;
+}
+
 
 .right .bottomright{
     position: absolute;
@@ -99,11 +151,12 @@ img[src="assets/images/odin-icon.png"]{
     height: 232px;
     top: 400px;
     left: 421px;
+    background-color: var(--bg-light-gray);
 }
 
 #submit-button{
     top: 30px;
-    left: 40px;
+    left: 55px;
     color: #ffffff;
     padding: 10px;
     padding-left: 30px;
@@ -115,7 +168,7 @@ img[src="assets/images/odin-icon.png"]{
 
 .right .bottomright p{
     font-size: 12px;
-    left: 40px;
+    left: 55px;
     top: 80px;
 }
 
