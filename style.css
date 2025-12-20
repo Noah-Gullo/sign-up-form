@@ -40,12 +40,12 @@ img[src="assets/images/odin-icon.png"], .odin-text{
 }
 
 img[src="assets/images/odin-icon.png"]{
-    top: 140px;
+    top: 155px;
     left: 130px;
 }
 
 .odin-text{
-    top: 100px;
+    top: 115px;
     left: 200px;
     color: #ffffff;
     font-family: 'norse-bold', Arial, Helvetica, sans-serif;
@@ -55,7 +55,7 @@ img[src="assets/images/odin-icon.png"]{
 .semi-transparent{
     width: 431px;
     height: 120px;
-    top: 130px;
+    top: 145px;
     left: -10px;
     background-color: #000000;
     opacity: 0.5;
@@ -63,7 +63,7 @@ img[src="assets/images/odin-icon.png"]{
 
 .credit-text{
     font-size: 10px;
-    top:615px;
+    top:665px;
     left: 115px;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif
@@ -75,7 +75,7 @@ img[src="assets/images/odin-icon.png"]{
 
 .right .topright {
     position: absolute;
-    width: 975px;
+    width: 1115px;
     height: 200px;
     left: 421px;
     background-color: var(--bg-light-gray);
@@ -108,7 +108,7 @@ img[src="assets/images/odin-icon.png"]{
 }
 
 .midright form{
-    top: 240px;
+    top: 260px;
     left: 450px;
     display: flex;
     justify-content: center;
@@ -126,7 +126,6 @@ img[src="assets/images/odin-icon.png"]{
     border: 1px solid #E5E7EB;
     border-radius: 4px;
 }
-
 
 .midright form fieldset input:focus{
     outline: none;
@@ -147,9 +146,9 @@ img[src="assets/images/odin-icon.png"]{
 
 .right .bottomright{
     position: absolute;
-    width: 975px;
+    width: 1115px;
     height: 232px;
-    top: 400px;
+    top: 460px;
     left: 421px;
     background-color: var(--bg-light-gray);
 }
