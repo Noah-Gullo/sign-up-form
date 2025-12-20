@@ -17,6 +17,8 @@ img[src="assets/images/odin-icon.png"]+p,
 .credit-text, 
 .semi-transparent, 
 .right .topright,
+.right .topright p,
+.right .midright,
 .right .bottomright, 
 .right .bottomright p,
 .bottomright button{
@@ -69,12 +71,25 @@ img[src="assets/images/odin-icon.png"]{
     width: 975px;
     height: 200px;
     left: 421px;
-    background-color: lightgray;
 }
 
-.right .topright p{
+.right .topright>p{
     font-weight: bold;
+    top: 60px;
+    left: 50px;
     width: 500px;
+}
+
+.right .topright>p#sign-up{
+    font-weight: bold;
+    top: 100px;
+    left: 50px;
+}
+
+.right .topright>p#motivation{
+    font-weight: bold;
+    top: 140px;
+    left: 50px;
 }
 
 
@@ -84,7 +99,6 @@ img[src="assets/images/odin-icon.png"]{
     height: 232px;
     top: 400px;
     left: 421px;
-    background-color: lightgray;
 }
 
 #submit-button{
