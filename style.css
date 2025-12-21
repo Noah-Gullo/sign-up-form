@@ -135,9 +135,9 @@ img[src="assets/images/odin-icon.png"]{
     border-radius: 4px;
 }
 
-.midright form fieldset input#password:invalid, .midright form fieldset input#confirm-password:invalid{
+.midright form fieldset input#password:user-invalid, .midright form fieldset input#confirm-password:user-invalid{
     border-color: #f00;
-}
+} 
 
 .midright form label{
     font-size: 11px;
