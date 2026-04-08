@@ -9,6 +9,7 @@ The sixth project of The Odin Project and the first of Intermediate HTML/CSS. An
 This project further pushed me to use more complicated CSS styling and selectors along with gaining familiarity practicing more with forms and fonts. This was definitely a shift away from the FlexBox dominated positioning to absolute positioning instead. Also implemented basic client input validation.
 
 ## Reflection:
+This project was good practice using CSS styling along with practicing with forms and fonts. Overall useful practice in understanding styling better along with specific selectors.
 
 ## Credit:
 [Background image](https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA) sourced from [Halie West](https://unsplash.com/@haliewestphoto) at [unsplash.com](https://unsplash.com/). 
